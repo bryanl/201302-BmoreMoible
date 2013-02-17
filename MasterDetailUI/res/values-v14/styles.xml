@@ -6,7 +6,7 @@
         res/values-v11/styles.xml on API 14+ devices.
     -->
     <style name="AppBaseTheme" parent="Theme.mdui">
-        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>        
     </style>
 
 </resources>
