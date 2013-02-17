@@ -3,15 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:paddingTop="8dp"
-    android:paddingBottom="8dp">
-    
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp" >
+
     <ImageView
         android:id="@+id/quote_avatar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1" 
-        android:layout_marginRight="16dp"/>
+        android:layout_marginRight="16dp"
+        android:layout_weight="1" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -22,12 +22,20 @@
         <TextView
             android:id="@+id/quote_title"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="TextView"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/quote_author"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:fontFamily="san-serif-light"
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="12sp" />
     </LinearLayout>
 
 </LinearLayout>
